@@ -1,4 +1,4 @@
-// A program that reads integers and prints each integer's integer radical.
+// A program that reads integers and prints each integer's integer radical. Very Rough.
 // (c) 2014 amelia archer
 
 #include <stdio.h>
