@@ -1,5 +1,5 @@
-//Program that takes as its sole argument a CS lab access code as a decimal number
-// and writes out each of the access codes that are equivalent.
+//Program that takes as its sole argument a CS lab access code (with two ints on each button)
+// as a decimal number and writes out each of the access codes that are equivalent.
 // (c) 2014 amelia archer
 
 #include <stdio.h>
