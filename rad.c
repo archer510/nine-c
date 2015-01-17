@@ -8,10 +8,10 @@ int main( int argc, char **argv)
   int n,f,r;
 
   while (1) {
-    scanf("%d",&n);
-    if (n < 2) continue;
-    r = 1;
-    f = 2;
+    scanf("%d",&n);	// read input
+    if (n < 2) continue;	// ignore n < 2
+    r = 1;			// r is integer radical
+    f = 2;			// check factors starting with 2
 
     while (f <= n) {
       while (n%f == 0) {
@@ -22,7 +22,7 @@ int main( int argc, char **argv)
       }
       f++;
     }
-    printf("Integer Radical: %d\n", r);
+    printf("%d\n", r);
   }
   return 0;
 }
